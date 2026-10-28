@@ -1,27 +1,25 @@
-# Python cache
-__pycache__/
-*.py[cod]
+# Large machine learning models
+*.keras
+*.h5
+*.pt
+*.pth
+
+# Datasets
+dataset/
+cnn_dataset/
+yolo_dataset/
+
+# Training outputs
+runs/
 
 # Virtual environments
 venv/
 .venv/
 
-# Training outputs
-runs/
-
-# Model weights
-*.pt
-
-# Executables
+# Executables and secrets
 cloudflared.exe
-
-# Secrets
 .env
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Datasets - do not upload large datasets
-dataset/
-cnn_dataset/
-yolo_dataset/
+# Python cache
+__pycache__/
+*.py[cod]
