@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Training outputs
+runs/
+
+# Model weights
+*.pt
+
+# Executables
+cloudflared.exe
+
+# Secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets - do not upload large datasets
+dataset/
+cnn_dataset/
+yolo_dataset/

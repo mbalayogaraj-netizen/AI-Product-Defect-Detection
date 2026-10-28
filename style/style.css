@@ -1,0 +1,114 @@
+/* =========================
+   AI Product Defect Dashboard
+========================= */
+
+.stApp{
+    background:#0B1120;
+    color:white;
+}
+
+/* Hide Streamlit Menu */
+#MainMenu{visibility:hidden;}
+footer{visibility:hidden;}
+header{visibility:hidden;}
+
+/* Main Title */
+
+.main-title{
+    color:#22D3EE;
+    font-size:40px;
+    font-weight:700;
+}
+
+.sub-title{
+    color:#CBD5E1;
+    font-size:18px;
+}
+
+/* Dashboard Cards */
+
+.dashboard-card{
+
+    background:#111C35;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    border:1px solid #223455;
+
+    box-shadow:0 0 15px rgba(0,229,255,.15);
+
+    text-align:center;
+}
+
+.card-title{
+
+    color:#94A3B8;
+
+    font-size:18px;
+}
+
+.card-value{
+
+    color:white;
+
+    font-size:38px;
+
+    font-weight:bold;
+}
+
+.card-delta{
+
+    color:#22C55E;
+
+    font-size:18px;
+}
+
+/* Upload */
+
+[data-testid="stFileUploader"]{
+
+    border:2px dashed #2563EB;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    background:#111C35;
+}
+
+/* Buttons */
+
+.stButton>button{
+
+    background:#2563EB;
+
+    color:white;
+
+    border-radius:10px;
+
+    width:100%;
+
+    height:45px;
+
+    border:none;
+}
+
+.stButton>button:hover{
+
+    background:#1D4ED8;
+}
+
+/* Metric */
+
+[data-testid="metric-container"]{
+
+    background:#111C35;
+
+    border-radius:15px;
+
+    padding:15px;
+
+    border:1px solid #223455;
+}
